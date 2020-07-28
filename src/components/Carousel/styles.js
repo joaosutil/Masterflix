@@ -21,10 +21,10 @@ export const Title = styled.h3`
 export const ExtraLink = styled.a`
   margin-left: 16px;
   text-decoration: none;
-  transition: opacity .3s;
+  transition: opacity 1;
   &:hover,
   &:focus {
-    opacity: .5;
+    opacity: 0.4;
   }
   @media (max-width: 800px) {
     display: block;
@@ -44,6 +44,9 @@ export const VideoCardList = styled.ul`
   
   li {
     margin-right: 16px;
+  }
+  li:hover {
+
   }
 `;
 
